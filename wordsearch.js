@@ -37,7 +37,6 @@ const wordSearch = (letters, word) => {
     }
   }
 
-  // Diagonal logic
   return false;
 };
 
