@@ -15,6 +15,7 @@ const wordSearch = (letters, word) => {
     }
   }
 
+  // Vertical logic matrix
   let row = letters.length;
   let column = letters[0].length;
   let newMatrix = [];
@@ -36,6 +37,7 @@ const wordSearch = (letters, word) => {
     }
   }
 
+  // Diagonal logic
   return false;
 };
 
